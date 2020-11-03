@@ -1,0 +1,38 @@
+INSERT INTO series VALUES (1, "Harry Potter Series", 1, 1);
+INSERT INTO series VALUES (2, "Hunger Games Series", 2, 2);
+INSERT INTO subgenres VALUES (1, "Fantasy");
+INSERT INTO subgenres VALUES (2, "Armageddon");
+INSERT INTO authors VALUES (1, "J. K. Rowling");
+INSERT INTO authors VALUES (2, "Suzanne Collins");
+INSERT INTO books VALUES (1, "Harry Potter and the Philosopher's Stone", 1991, 1);
+INSERT INTO books VALUES (2, "Harry Potter and the Chamber of Secrets", 1995, 1);
+INSERT INTO books VALUES (3, "Harry Potter and the Prisoner of Azkaban", 1998, 1);
+INSERT INTO books VALUES (4, "The Hunger Games", 2008, 2);
+INSERT INTO books VALUES (5, "Catching Fire", 2009, 2);
+INSERT INTO books VALUES (6, "Mockingjay", 2010, 2);
+INSERT INTO characters VALUES (1, "Harry Potter", "I can fly!", "Human", 1);
+INSERT INTO characters VALUES (2, "Draco", "I can't fly!", "Human", 1);
+INSERT INTO characters VALUES (3, "Ron Weasley", "I love Harry", "Human", 1);
+INSERT INTO characters VALUES (4, "Granger", "I love Ron!", "Muggle", 1);
+INSERT INTO characters VALUES (5, "Katniss", "I am Katniss", "Human", 2);
+INSERT INTO characters VALUES (6, "Peeta", "I am Peeta", "Human", 2);
+INSERT INTO characters VALUES (7, "Gale", "I am Gale", "Human", 2);
+INSERT INTO characters VALUES (8, "Primrose", "I am Primrose", "Human", 2);
+INSERT INTO character_books VALUES (1, 1, 1);
+INSERT INTO character_books VALUES (2, 2, 1);
+INSERT INTO character_books VALUES (3, 3, 1);
+INSERT INTO character_books VALUES (4, 1, 2);
+INSERT INTO character_books VALUES (5, 2, 2);
+INSERT INTO character_books VALUES (6, 3, 2);
+INSERT INTO character_books VALUES (7, 2, 3);
+INSERT INTO character_books VALUES (8, 2, 4);
+INSERT INTO character_books VALUES (9, 4, 5);
+INSERT INTO character_books VALUES (10, 5, 5);
+INSERT INTO character_books VALUES (11, 6, 5);
+INSERT INTO character_books VALUES (12, 4, 6);
+INSERT INTO character_books VALUES (13, 5, 6);
+INSERT INTO character_books VALUES (14, 6, 6);
+INSERT INTO character_books VALUES (15, 5, 7);
+INSERT INTO character_books VALUES (16, 5, 8);
+
+
